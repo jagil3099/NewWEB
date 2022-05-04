@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina de ejemplo</title>
 </head>
 <body>
-    <p>Pagina ejemplo CRIC</p>
+    <p>Pagína ejemplo CRIC</p>
+    <p>Ingrese un número</p>
     <input type="txt" id="txt1">
+    <p id="respuesta"></p>
+    <img src="/Imagenes/indice.png">
 
     <script>
 
         var texto=document.getElementById("txt1").value;
-        text=texto;
+        texto=texto/2;
+        document.getElementById("respueste").innerHTML=texto;
 
-        alert(text,0);
     </script>
 </body>
 </html>
